@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elements playground</title>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div id="output"></div>
+      <div>
+        <input type="text" id="element" placeholder="Element (optional)">
+        <input type="text" id="color" placeholder="Color (optional)">
+        <input type="text" id="value" placeholder="Value">
+        <button id="submit">submit</button>
+      </div>
+    </div>
+  </div>
+<script src="src/main.ts" type="module"></script>
+</body>
 </html>
